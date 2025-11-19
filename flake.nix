@@ -16,6 +16,7 @@
         nodejs
         hugo
         just
+        python314
       ];
 
       # Shell hooks.
