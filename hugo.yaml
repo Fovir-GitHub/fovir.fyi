@@ -38,8 +38,13 @@ menu:
       weight: 4
       params:
         icon: rss
-    - name: Search
+    - name: Email
+      url: "mailto:fovir@disroot.org"
       weight: 5
+      params:
+        icon: mail
+    - name: Search
+      weight: 6
       params:
         type: search
 
