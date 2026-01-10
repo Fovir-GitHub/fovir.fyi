@@ -39,7 +39,7 @@ Query processing steps include:
 | ------------------- | -------- | ---------------------------------------------------------- |
 | `SELECT`            | $\sigma$ | $\sigma$ Status = "Active"(Customer)                       |
 | `PROJECTION`        | $\pi$    | $\Pi$ CustomerName, Status (Customer)                      |
-| `RENAME`            | $\rho$   | $\rho$ ${new_name} / ${old_name}                           |
+| `RENAME`            | $\rho$   | $\rho$ \${new_name} / \${old_name}                         |
 | `UNION`             | $\cup$   | $A \cup B$ gives all tuples in table $A$ and $B$.          |
 | `INTERSECTION`      | $\cap$   | $A \cap B$ gives all tuples both in $A$ and $B$.           |
 | `DIFFERENCE`        | $-$      | $A - B$ gives tuples in $A$ but not in $B$.                |
