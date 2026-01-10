@@ -77,7 +77,7 @@ $$
 Example:
 
 $$
-Customer \gets Customer \cup \{1, `\text{Name}', `\text{Active}'\}
+\text{Customer} \gets \text{Customer} \cup \{1, `\text{Name}', `\text{Active}'\}
 $$
 
 ### `Updating`
