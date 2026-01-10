@@ -54,7 +54,7 @@ An ER diagram is a type of flowchart, illustrating how entities related to each 
 ```mermaid
 flowchart TD
   customer["Customer"]
-  id(["ID"])
+  id([<p style="text-decoration: underline;">ID</p>])
   name(["Name"])
   street(["Street"])
   city(["City"])
