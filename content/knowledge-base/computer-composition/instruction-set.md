@@ -218,6 +218,8 @@ IN REG, PORT
 OUT PORT, REG
 ```
 
+The `PORT` ranges from $0$ to $\text{FFH}$.
+
 ## Arithmetic Instructions
 
 <table>
