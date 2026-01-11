@@ -183,6 +183,7 @@ Examples:
 ```asm
 MOV AL, [BX]
 MOV CL, [SI]
+MOV [BX], 4800H
 ```
 
 Only `BX`, `BP`, `SI`, and `DI` can be used.
