@@ -233,7 +233,7 @@ There are two operands: minuend and subtrahend.
 
 The subtrahend can be transformed to its two's complement at first, and then to perform the addition.
 
-When performing the addition, we can get the `CF` and `OF`. And the correct `CF` is the inverse of addition's carry flag while the correct `OF` is the same as addition's overflow flag.
+When performing the addition, we can get the `CF` and `OF`. And the correct `CF` and `AF` are the inverse of addition's while the correct `OF` is the same as addition's.
 
 #### Control Flags
 
