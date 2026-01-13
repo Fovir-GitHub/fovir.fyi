@@ -43,8 +43,13 @@ menu:
       weight: 5
       params:
         icon: mail
-    - name: Search
+    - name: Fediverse
+      url: "https://social.fovir.fyi/@fovir"
       weight: 6
+      params:
+        icon: globe
+    - name: Search
+      weight: 7
       params:
         type: search
 
