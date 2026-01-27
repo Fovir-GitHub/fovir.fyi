@@ -1,0 +1,55 @@
+main:
+  - name: Knowledge Base
+    pageRef: /knowledge-base
+    weight: 1
+  - name: Blog
+    pageRef: /blog
+    weight: 2
+  - identifier: contact
+    name: Contact
+    weight: 3
+    params:
+      icon: chat
+      type: link
+  - name: Email
+    url: "mailto:fovir@disroot.org"
+    parent: contact
+    params:
+      type: link
+      icon: mail
+  - name: Fediverse
+    url: "https://social.fovir.fyi/@fovir"
+    parent: contact
+    params:
+      type: link
+      icon: globe
+  - name: Search
+    weight: 7
+    params:
+      type: search
+  - name: GitHub
+    weight: 8
+    url: "https://github.com/Fovir-GitHub"
+    params:
+      icon: github
+  - name: RSS
+    pageRef: /index.xml
+    weight: 10
+    params:
+      icon: rss
+sidebar:
+  - identifier: contact
+    name: Contact
+    params:
+      type: separator
+    weight: 1
+  - name: Email
+    url: "mailto:fovir@disroot.org"
+    params:
+      type: link
+      icon: mail
+  - name: Fediverse
+    url: "https://social.fovir.fyi/@fovir"
+    params:
+      type: link
+      icon: globe

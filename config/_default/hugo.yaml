@@ -1,0 +1,8 @@
+baseURL: https://www.fovir.fyi/
+languageCode: en-us
+title: Fovir's Home
+timeZone: Asia/Kuala_Lumpur
+
+theme: hextra
+
+enableGitInfo: true
