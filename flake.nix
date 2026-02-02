@@ -23,7 +23,7 @@
       shellHook = ''
         echo "Entering the development environment!"
         hugo version
-        npm install -D prettier prettier-plugin-go-template
+        npm install
       '';
     };
   };
