@@ -9,7 +9,7 @@ main:
     name: Contact
     weight: 3
     params:
-      icon: chat
+      icon: link
       type: link
   - name: Email
     url: "mailto:fovir@disroot.org"
@@ -23,6 +23,12 @@ main:
     params:
       type: link
       icon: globe
+  - name: Matrix
+    url: "https://matrix.to/#/@fovir:matrix.fovir.fyi"
+    parent: contact
+    params:
+      type: link
+      icon: chat
   - name: Search
     weight: 7
     params:
